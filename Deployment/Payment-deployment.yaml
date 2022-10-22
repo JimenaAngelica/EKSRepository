@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: payment-container
-        image: 262583979852.dkr.ecr.us-east-1.amazonaws.com/payment-service-environment:latest
+        image: 262583979852.dkr.ecr.us-east-1.amazonaws.com/payment-service-jimena:latest
         ports:
         - containerPort: 8300
         imagePullPolicy: Always

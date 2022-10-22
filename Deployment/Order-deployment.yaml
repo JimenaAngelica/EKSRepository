@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: order-container
-        image: 262583979852.dkr.ecr.us-east-1.amazonaws.com/order-service-environment:latest
+        image: 262583979852.dkr.ecr.us-east-1.amazonaws.com/order-service-jimena:latest
         ports:
         - containerPort: 8100
         imagePullPolicy: Always
