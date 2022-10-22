@@ -18,7 +18,7 @@ pipeline {
         TF_VAR_environment      = 'jimena'
     }
     stages {
-        stage('Create Infra') {
+        /*stage('Create Infra') {
             when {
                 equals expected: true, actual: params.deploy
             }
@@ -28,7 +28,7 @@ pipeline {
                     sh "terraform apply --auto-approve"
                 }
             }
-        }
+        }*/
            stage('secrets') {
             when {
                 equals expected: true, actual: params.deploy
